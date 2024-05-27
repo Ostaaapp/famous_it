@@ -57,11 +57,21 @@ body {
     .nav-link {
         font-size: 18px;
         margin: 0;
+        text-align: center;
+    }
+
+    .nav-link:hover {
+        background-color: transparent; /* Зміна кольору при наведенні на мобільних пристроях */
+        border-radius: 0; /* Зміна інших властивостей */
     }
 
     .nav-link:active {
         background-color: #575757;
         border-radius: 4px;
+    }
+
+    .navbar-toggler-icon {
+        text-align: center;
     }
 }
 
