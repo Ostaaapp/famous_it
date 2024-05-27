@@ -100,12 +100,13 @@ body {
 form {
     width: 24%;
     background-color: #fff;
-    padding: 50px;
+    padding: 100px;
     border-radius: 20px;
     margin: 150px 0;
     border: 2px solid rgba(123, 99, 99, 0.98);
-    box-shadow: 5px 4px;
 }
+
+
 
 .btn-primary {
     width: 100%;
