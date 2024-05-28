@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #0066ff;
+}
+.box{
+    width:600px;
+    height:550px;
+    background-color: #fff;
+    margin:auto;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.box .header{
+    background-color: #000;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.box .header p{
+    text-align: center;
+    padding:5px;
+    font-size: 20px;
+    color:#fff;
+    font-family: sans-serif;
+}
+form{
+    display: flexbox;
+    width:540px;
+    height:auto;
+    margin:auto;
+    padding:5px;
+}
+.row{
+    padding:8px;
+    margin-top: 7px;
+}
+.row .col-2{
+    text-align: center;
+}
+.row .col-4 input{
+    background:#f2f2f2;
+    border:none;
+    outline: none;
+    padding:3px;
+    border-radius: 5px;
+}
+.row .col-8 input{
+    background:#f2f2f2;
+    border:none;
+    outline: none;
+    padding:3px;
+    border-radius: 5px;
+    width:385px;
+}
+.row .col-3 input{
+    background:#f2f2f2;
+    border:none;
+    outline: none;
+    padding:3px;
+    border-radius: 5px;
+    width:100px;
+}
+.row .col-5 input{
+    background:#f2f2f2;
+    border:none;
+    outline: none;
+    padding:3px;
+    border-radius: 5px;
+    width:247px;
+}
+.row .col-6 p{
+    text-align: center;
+}
+.row .col-6 input{
+    margin-left: 20px;
+}
+.row .col-6 button{
+    margin-left: 50px;
+}
