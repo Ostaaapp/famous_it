@@ -73,6 +73,10 @@ body {
     .navbar-toggler-icon {
         text-align: center;
     }
+
+    .form button {
+        width: 100%;
+    }
 }
 
 .main-title {
