@@ -163,14 +163,16 @@ button:hover {
 
 .main-text {
     background-color: #f5f5f5;
-}
-
-.main-text {
     padding: 50px;
     font-size: 20px;
+    border-radius: 30px;
 }
 
 .custom-list-item::before {
     content: "- ";
     margin-right: 5px;
+}
+
+.title {
+    font-weight: 600;
 }
