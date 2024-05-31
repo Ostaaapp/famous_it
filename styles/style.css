@@ -133,7 +133,7 @@ button:hover {
 
 .form {
     margin: 100px auto;
-    background-color: rgba(255,211,252,0.96);
+    background-color: #f5f5f5;
     padding: 20px;
     border-radius: 30px;
 }
