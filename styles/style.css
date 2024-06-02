@@ -6,8 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    height: 5000px;
+    background-color: #f4f4f4;
 }
 
 .navbar {
@@ -76,7 +75,7 @@ body {
         text-align: center;
     }
 
-    form button {
+    button {
         width: 100%;
     }
 }
@@ -132,8 +131,8 @@ button:hover {
 }
 
 .form {
-    margin: 100px auto;
-    background-color: rgba(255,211,252,0.96);
+    margin: 200px auto;
+    background-color: #fff;
     padding: 20px;
     border-radius: 30px;
 }
@@ -162,7 +161,7 @@ button:hover {
 }
 
 .main-text {
-    background-color: #f5f5f5;
+    background-color: #fff;
     padding: 50px;
     font-size: 20px;
     border-radius: 30px;

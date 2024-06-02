@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Вхід</title>
+    <title>Вікторина</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/quiz.css">
 </head>
 <body>
 
@@ -38,25 +39,24 @@
     </div>
 </header>
 
-<main>
-    <div class="container" id="logForm">
-        <form class="col-md-6 form">
-            <h4 class="text-center display-6 text-primary mb-4 fw-bold">Авторизація</h4>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+<div class="container">
+    <div id="quiz-container" class="col-md-9 m-auto">
+        <div id="question-container">
+            <h4 id="question" class="text-center fw-bold mt-5">Питання з'являться тут</h4>
+            <div id="answer-buttons" class="btn-container">
+                <!-- Кнопки з відповідями -->
             </div>
-            <div class="mb-3">
-                <label for="password" class="form-label">Password</label>
-                <input type="password" class="form-control" id="password">
-                <div class="form-text" id="forgotPass"><a href="forgot_password.html" class="">Забули пароль?</a></div>
-            </div>
-            <div class="m-auto text-center"><button type="submit" name="loginBT" class="btn btn-primary col-md-4 m-auto">Увійти</button></div>
-            <div class="form-text text-center mt-5" id="createAc">Ви новий користувач? &nbsp &nbsp;<a href="registration.html" class="">Зареєструватися</a></div>
-        </form>
+        </div>
+        <div id="controls" class="m-auto text-center">
+            <button id="next-btn" class="btn hidden col-md-6">Наступне питання</button>
+        </div>
+        <div id="result-container" class="hidden">
+            <h4 id="result" class="fw-bold">Ваш результат:</h4>
+            <button id="restart-btn" class="btn ">Перезапустити</button>
+        </div>
     </div>
-</main>
+</div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="index.js"></script>
 </body>
 </html>
