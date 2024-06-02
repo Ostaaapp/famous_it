@@ -12,7 +12,7 @@
 
 <header>
     <div class="fluid-container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">Відомі люди в IT</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,24 +39,26 @@
     </div>
 </header>
 
-<div class="container">
-    <div id="quiz-container" class="col-md-9 m-auto">
-        <div id="question-container">
-            <h4 id="question" class="text-center fw-bold mt-5">Питання з'являться тут</h4>
-            <div id="answer-buttons" class="btn-container">
-                <!-- Кнопки з відповідями -->
+<main>
+    <div class="container">
+        <div id="quiz-container" class="col-md-9 m-auto">
+            <div id="question-container">
+                <h4 id="question" class="text-center fw-bold">Питання з'являться тут</h4>
+                <div id="answer-buttons" class="btn-container">
+                    <!-- Кнопки з відповідями -->
+                </div>
+            </div>
+            <div id="controls" class="m-auto text-center">
+                <button id="next-btn" class="btn hidden col-md-6">Наступне питання</button>
+            </div>
+            <div id="result-container" class="hidden">
+                <h4 id="result" class="fw-bold">Ваш результат:</h4>
+                <button id="restart-btn" class="btn">Перезапустити</button>
             </div>
         </div>
-        <div id="controls" class="m-auto text-center">
-            <button id="next-btn" class="btn hidden col-md-6">Наступне питання</button>
-        </div>
-        <div id="result-container" class="hidden">
-            <h4 id="result" class="fw-bold">Ваш результат:</h4>
-            <button id="restart-btn" class="btn ">Перезапустити</button>
-        </div>
     </div>
-</div>
-
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="index.js"></script>
 </body>
 </html>
