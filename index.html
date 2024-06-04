@@ -10,7 +10,7 @@
 <body>
 <header>
     <div class="fluid-container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container-fluid d-flex justify-content-between align-items-center">
                 <a class="navbar-brand" href="index.html">Відомі люди в IT</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,7 @@
     </div>
 </header>
 
-<main>
+<main class="mt-5">
     <section class="main-title mb-5">
         <div class="container">
             <div class="row justify-content-center">
@@ -50,7 +50,7 @@
         </div>
     </section>
 
-    <section class="first famous-piple">
+    <section class="first famous-people">
         <div class="container mt-5">
             <div class="row justify-content-center text-center m-auto"></div>
                 <div class="">
@@ -69,10 +69,15 @@
                         </ul>
                         <p class="mt-5">Зараз Тім має звання почесного професора 17 найкращих світових університетів, в яких читає авторські лекції з інформатики та програмування. У вільний час Тім бореться за ідею загальнодоступного інтернету для всього світу.</p>
                         <p class="mt-5"><span class="fw-bold">Найвідоміша цитата Тіма:</span> <i>«Якби я знав, скільки людей по всьому світу вказуватимуть URL, я б не використовував у синтаксисі подвійний слеш»</i></p>
+
+                        <div class="m-auto text-center mt-5">
+                            <button type="button" class="btn btn-primary col-md-4 m-auto" data-bs-toggle="modal" data-bs-target="#first-window">Детальніше</button>
+                        </div>
+
                     </div>
                 </div>
         </div>
-        
+
         <div class="entering-image text-center m-5">
             <img src="https://static.tildacdn.com/tild6133-6136-4465-b536-353066393434/shuffle_1.svg" alt="" width="150px" height="150px">
         </div>
@@ -95,6 +100,10 @@
                     </ul>
                     <p class="mt-5">Зараз Брендам все ще працює над Brave, горить цією справою, та добирає в свою команду найкращих програмістів та розробників з усього світу.</p>
                     <p class="mt-5"><span class="fw-bold">Найвідоміша цитата Брендана: </span> <i>«Найбільша цінність ІТ стартапу – це люди. Двері Brave завжди відкриті для тих, хто володіє двома якостями: справжнім професіоналізмом і справжньою людяністю»</i></p>
+
+                    <div class="m-auto text-center mt-5">
+                        <button type="button" class="btn btn-primary col-md-4 m-auto" data-bs-toggle="modal" data-bs-target="#second-window">Детальніше</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -121,8 +130,12 @@
                         <li class="list-group-item custom-list-item">Уперше створивши BitTorrent, тестував протокол на роздаванні файлів порнографічного змісту</li>
                         <li class="list-group-item custom-list-item">Організатор однієї з найбільших конференцій з ІТ – CODECON</li>
                     </ul>
-                    <p class="mt-5">Сьогодні технологією Брема – BitTorrent – активно послуговуються Facebook, Twitter, Internet Archive, Blizzard, World of Tanks, Eve Online, уряд Великобританії та багато інших великих користувачів.
-                    </p>
+                    <p class="mt-5">Сьогодні технологією Брема – BitTorrent – активно послуговуються Facebook, Twitter, Internet Archive, Blizzard, World of Tanks, Eve Online, уряд Великобританії та багато інших великих користувачів.</p>
+                    <p class="mt-5">Сам Брем, незважаючи на роки важкої роботи та обмаль часу на відпочинок, зберіг життєвий запал та відмінне почуття гумору. А початок своєї кар'єри в ІТ згадує своєю <span class="fw-bold">найвідомішою цитатою:</span> <i>«Я писав BitTorrent сидячи у залі в своїй невеличкій квартирі, у пошарпаних трусах та безробітний».</i></p>
+
+                    <div class="m-auto text-center mt-5">
+                        <button type="button" class="btn btn-primary col-md-4 m-auto" data-bs-toggle="modal" data-bs-target="#third-window">Детальніше</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -151,6 +164,11 @@
 
                     <p class="mt-5">Зараз Соломон продовжує активно працювати з Docker та насолоджується тим, що побиває рейтинги наймолодших і найзаможніших геніїв програмування у світі.</p>
                     <p class="mt-5"><span class="fw-bold">Найвідоміша цитата Тіма:</span> <i>«Якби я знав, скільки людей по всьому світу вказуватимуть URL, я б не використовував у синтаксисі подвійний слеш»</i></p>
+
+                    <div class="m-auto text-center mt-5">
+                        <button type="button" class="btn btn-primary col-md-4 m-auto" data-bs-toggle="modal" data-bs-target="#fourth-window">Детальніше</button>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -178,15 +196,102 @@
                     </ul>
                     <p class="mt-5">Зараз Дональду 77 років, але він так само подорожує світом та читає лекції у найбільш відомих та престижних вишах світу. На сьогодні відійшов від практики програмування та займається його науковим підґрунтям.</p>
                     <p class="mt-5"><span class="fw-bold">Найвідоміша цитата Дональда:</span> <i>«Найкращий спосіб розібратися в чомусь – спробувати навчити цього ваш ПК»</i></p>
+
+                    <div class="m-auto text-center mt-5">
+                        <button type="button" class="btn btn-primary col-md-4 m-auto" data-bs-toggle="modal" data-bs-target="#fifth-window">Детальніше</button>
+                    </div>
+
                 </div>
             </div>
         </div>
     </section>
 </main>
 
-<footer>
+<div class="modal fade" id="first-window" tabindex="-1" aria-labelledby="first-window-label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title fw-bold" id="first-window-label" >Тім Бернерс-Лі</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="main-text">
+                    Сер Тімоті Джон Бе́рнерс-Лі — британський спеціаліст з інформатики, творец ь HTTP
+                    , HTML, URI і автор інших розробок в галузі інформацій
+                    них технологій, засновник та голова консорціуму W3C, головний розробник
+                    Всесвітнього павутиння, автор концепції семантичної павутини. Лауреат премії Тюрінга 2016 року.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
-</footer>
+<div class="modal fade" id="second-window" tabindex="-1" aria-labelledby="second-window-label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title fw-bold" id="second-window-label" >Брендан Айк</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Брендан Айк або Ейх — програміст, автор скриптової мови JavaScript. Обіймав посаду технічного директора в Mozilla
+                Corporation, у березні 2014 призначений керівником компанії Mozilla Corporation.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="third-window" tabindex="-1" aria-labelledby="third-window-label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title fw-bold" id="third-window-label" >Абраган (Брем) Коєн</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Абрагам (Брем) Коєн — американський програміст, найбільш відомий як творець протоколу BitTorrent, який є одним з найпопулярніших способів обміну файлами в інтернеті. BitTorrent дозволяє користувачам обмінюватися великими файлами через децентралізовану мережу, де файли розподіляються між користувачами і завантажуються з декі
+                лькох джерел одночасно. Це робить процес завантаження швидшим та ефективнішим.
+                Коєн випустив першу версію BitTorrent в 2001 році. Він також є співзасновником компанії BitTorrent, Inc., яка займається розвитком та підтримкою цього протоколу. Внесок Коена у розви
+                ток технологій файлообміну зробив його відомим у світі програмування та технологій.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fourth-window" tabindex="-1" aria-labelledby="fourth-window-label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title fw-bold" id="fourth-window-label" >Соломон Хайкс</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Соломон Хайкс (Solomon Hykes) — французький програміст та підприємець, найбільш відомий як засновник і колишній генеральний директор компанії Docker, Inc. Docker є компанією, що розробляє технології контейнеризації, які дозволяють розробникам створювати, розгортати та запускати застосунки в ізольованих середовищах, званих контейнерами. Це спрощує управління залежностями і забезпечує консистентність середовищ розробки та продакшну.
+
+                Хайкс заснував Docker (спочатку компанія називалася dotCloud) у 2010 році. Docker швидко став популярним серед розробників завдяки простоті використання та можливості швидко розгортати застосунки в різних середовищах. Хайкс грав ключову роль у розвитку технології Docker та створенні великої спільноти користувачів і розробників навколо неї.
+
+                У 2018 році Соломон Хайкс залишив компанію Docker, але його внесок у розвиток контейнерних технологій залишається значним і визнаним у галузі.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fifth-window" tabindex="-1" aria-labelledby="fifth-window-label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title fw-bold" id="fifth-window-label" >Дональд Кнут</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Дональд Ервін Кнут — інформатик, ідеолог програмування та почесний професор Стенфордського університету. Автор фундаментальної праці «Мистецтво прог
+                рамування»; вважається одним з батьків аналізу складності алгоритмів.
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
