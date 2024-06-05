@@ -6,6 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
 }
 
 .navbar {
@@ -27,6 +28,8 @@ body {
     text-decoration: none;
     font-size: 24px;
     font-weight: 700;
+    display: flex;
+    align-items: center;
 }
 
 .nav-link {
@@ -61,8 +64,8 @@ body {
     }
 
     .nav-link:hover {
-        background-color: transparent; /* Зміна кольору при наведенні на мобільних пристроях */
-        border-radius: 0; /* Зміна інших властивостей */
+        background-color: transparent;
+        border-radius: 0;
     }
 
     .nav-link:active {
@@ -72,6 +75,10 @@ body {
 
     .navbar-toggler-icon {
         text-align: center;
+    }
+
+    form button {
+        width: 100%;
     }
 }
 
@@ -95,4 +102,78 @@ body {
     font-size: 23px;
     font-weight: 300;
     margin-bottom: 50px;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #130303;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgba(255,52,63,0.96);
+}
+
+.form {
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#forgotPass a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#createAc a {
+    text-decoration: none;
+}
+
+.roundImage {
+    border-radius: 150px;
+    text-align: center;
+}
+
+.first {
+    margin-top: 150px;
+}
+
+.second {
+    margin-top: 1000px;
+}
+
+.main-text {
+    background-color: #fff;
+    padding: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.custom-list-item::before {
+    content: "- ";
+    margin-right: 5px;
+}
+
+.title {
+    font-weight: 600;
 }

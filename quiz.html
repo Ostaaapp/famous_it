@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вікторина</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+
+<header>
+    <div class="fluid-container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <a class="navbar-brand" href="index.html">Відомі люди в IT</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Головна</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#famous-people">Лідери IT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quiz.html">Вікторина</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="authorization" href="login.html">Авторизація</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div class="container col-md-9">
+        <div id="quiz-container" class="col-md-9 m-auto">
+            <div id="question-container">
+                <h4 id="question" class="text-center fw-bold">Питання з'являться тут</h4>
+                <div id="answer-buttons" class="btn-container">
+                    <!-- Кнопки з відповідями -->
+                </div>
+            </div>
+            <div id="controls" class="m-auto text-center">
+                <button id="next-btn" class="btn hidden col-md-6">Наступне питання</button>
+            </div>
+            <div id="result-container" class="hidden">
+                <h4 id="result" class="fw-bold">Ваш результат:</h4>
+                <button id="restart-btn" class="btn">Перезапустити</button>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+</html>
